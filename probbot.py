@@ -31,7 +31,7 @@ def start():
             reply = "Commands for CabbyBot:\n\n!RollTheDice\n\n!FlipTheCoin\n\n!RPS [rock, paper, or scissors]\n\n!CabbyBotHelp"
             print ("Response generated")
             print ("Now replying...")
-            comment.reply
+            comment.reply(reply)
             print ("Reply finished!")
             
             comments_replied_to.append(comment.id)
