@@ -46,11 +46,11 @@ pip install praw
 
 ### Step 2: Configure PRAW
 
-You must set up a PRAW configuration file (praw.ini) in the same directory as the script, or in the standard PRAW location. This file securely stores your bot's credentials.
+You must set up a PRAW configuration file (`praw.ini`) in the same directory as the script, or in the standard PRAW location. This file securely stores your bot's credentials. (Note: `praw.ini` not included)
 
-The bot is configured to look for the profile named bot1 (as seen in the code: reddit = praw.Reddit('bot1')).
+The bot is configured to look for the profile named bot1 (as seen in the code: `reddit = praw.Reddit('bot1'))`.
 
-praw.ini Example:
+`praw.ini` Example:
 
 ```ini
 [bot1]
