@@ -1,4 +1,4 @@
-# NOTE: Last updated 2018. Functionality may not work as indended. 
+## NOTE: Last updated 2018. Functionality may not work as indended. 
 
 # CabbyBot: The Pythonforengineers Minigame Bot
 
